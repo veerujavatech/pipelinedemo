@@ -9,12 +9,23 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoApplication {
 
+	public static String  welcomeMessage="welcome to aws application ... commit test one two 2nd";
 	@GetMapping("/")
 	public String getMessage() {
-		return "welcome to aws application ... commit test one two";
+		return welcomeMessage;
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
+	}
+	
+	public void gitExamples() {
+		// 1 commit 
+		//2  commit
+		// 3 commit 
+		//4
+		//5
+		//6
+
 	}
 
 }
