@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String getMessage() {
-		return "welcome to aws application ... commit test one";
+		return "welcome to aws application ... commit test one two";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
